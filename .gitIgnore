@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# annoying stuff 
+.DS_Store
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.idea/
+*.swp
+*.swo
+
+# Testing / coverage
+coverage/

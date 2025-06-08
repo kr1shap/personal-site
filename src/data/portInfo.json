@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "title": "Greener Than You Think | ElleHacks 25'",
+      "description": "A friendly, cute web application as a comfort zone for adolescents. Want to have your own mini garden? Let your thoughts go? Then, Greener than you think is your to go! Made using HTML + CSS + JS.",
+      "img": "gtyk.png",
+      "url": "https://github.com/kr1shap/greenerthankyouthink/tree/main"
+    },
+    {
+      "title": "Screen Sage | GenAI 25'",
+      "description": "A simple, AI-powered tool that generates interview questions, scores responses, and gives feedback—helping candidates improve and aiding fairer hiring decisions.",
+      "img": "scnsge.png",
+      "url": "https://devpost.com/software/screen-sage"
+    },
+    {
+      "title": "Personal Portfolio",
+      "description": "Woah, thats this site! Inspired for my love for pixel-core. Built using React, deployed on Vercel.",
+      "img": "port_bkgnd.png",
+      "url": ""
+    }
+  ],
+  "experience": [
+    {
+      "title": "Web Dev @ BizZone Inc.",
+      "description": "\n∙Evaluated client websites against appropriate standards \n ∙Designed Figma bootstrap elements and concepts for clients",
+      "img": "https://d2q79iu7y748jz.cloudfront.net/s/_logo/ccfa256d196e5e73331612529de95104"
+    },
+    {
+      "title": "First Year Rep @ WICSM",
+      "description": "Promoting equity and fairness in computer science! \n ∙Structured monthly social events involving snacks and activities to increase student participation \n ∙Created eye-captivating posters resulting in an increased turnout",
+      "img": "https://www.utsc.utoronto.ca/cms/sites/utsc.utoronto.ca.cms/files/styles/3_1_full_width_banner/public/images/page/Student%20clubs%201600x%283%29.png?h=d82dd7ab&itok=KAY2l-Mz"
+    }
+  ]
+}
