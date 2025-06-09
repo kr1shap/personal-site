@@ -1,5 +1,4 @@
 import PixelBtn from '../components/PixelBtn';
-import { Link } from 'react-router-dom';
 
 function NotFound(props) { 
 
@@ -13,7 +12,7 @@ function NotFound(props) {
                     <h1 className="text-center font-black text-4xl text-[#D9D6F3] transition duration-100 ease-in-out hover:text-[#e7e5f4] hover:-translate-y-0.5">
                         404 NOT FOUND!
                     </h1>
-                    <PixelBtn name="Home" dest="/"/>
+                    {props.back ? <PixelBtn name="Home" dest="/"/> : null }
                 </div>
             </div>
 
