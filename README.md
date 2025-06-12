@@ -4,7 +4,7 @@ Hey there! I'm **Krisha**, a **second-year student @UofT** studying CS + stats +
 
 ---
 
-## 🍡 My Crafty Toolkit
+## 🍡 More about me...
 
 I love to design! Here are some of my current known skills,
 
