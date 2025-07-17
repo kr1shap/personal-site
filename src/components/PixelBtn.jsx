@@ -21,7 +21,7 @@ function PixelBtn(props) {
                     transform transition duration-300 ease-in-out hover:bg-[#D9D6F3] hover:translate-y-0.5
                     cursor-pointer"
             >
-                {props.name ? props.name : "placeholder.jpg"}
+                {props.name ? props.name : "N/A"}
             </button>
         </Link>
     );

@@ -1,23 +1,40 @@
 @import "tailwindcss";
 
-:root { 
+@theme {
+ --breakpoint-small: 59.375rem;
+  --breakpoint-extraSmall: 30.375rem;
+  --font-readable: "Jersey 10"; 
+}
+
+@utility no-scrollbar {
+  @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
+}
+
+:root {
+
   background-color: #4C458A;
   background-image: url("/public/port_bkgnd.png");
   background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
 
-  font-family: "Press Start 2P", system-ui;
+  font-family: "Press Start 2P", "Jersey 10", system-ui;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
 body {
   margin: 0;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }

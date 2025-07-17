@@ -29,6 +29,7 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {window.innerWidth > 768 ? <RouterProvider router={router}/> : <RouterProvider router={mobileRouter}/> }
+     <RouterProvider router={router}/>
+    {/* {window.innerWidth > 768 ? <RouterProvider router={router}/> : <RouterProvider router={mobileRouter}/> } */}
   </StrictMode>,
 )
