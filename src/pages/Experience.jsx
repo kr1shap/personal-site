@@ -62,7 +62,7 @@ function Experience(props) {
                   <SmallCard
                     key={idx}
                     projName={exp.title}
-                    img={`/public/cardImages/btn${randomNums[idx]}.png`}
+                    img={`/cardImages/btn${randomNums[idx]}.png`}
                     action={() => handleCardClick(exp)}
                   />
                 </motion.div>
