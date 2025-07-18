@@ -11,7 +11,7 @@ function Overlay(props) {
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/20 bg-opacity-50">
         <button
           onClick={props.onClose}
-          className="absolute top-2 right-3 text-purple-100 hover:text-purple-200/80 text-5xl font-bold"
+          className="absolute top-2 right-3 text-purple-100 hover:text-purple-200/80 text-3xl extraSmall:text-5xl font-bold"
         >
           &times;
         </button>

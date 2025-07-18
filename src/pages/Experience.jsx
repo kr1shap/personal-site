@@ -37,11 +37,11 @@ function Experience(props) {
       <div
         className="bg-[#080861] flex flex-col md:flex-row justify-center 
              gap-10 p-6 md:p-10 rounded-[10px] w-full max-w-[1000px] 
-             h-auto md:h-[70vh] overflow-y-auto no-scrollbar"
+             h-auto md:h-[80vh] md:max-h-[700px] overflow-x-auto overflow-y-auto no-scrollbar"
       >
         <div className="flex flex-col m-1 w-full align-top">
           {/* nav */}
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
+          <div className="truncate-ellipsis flex flex-col sm:flex-row justify-between items-center gap-4">
             <h1 className="font-black text-[clamp(1.75rem,4vw,2.5rem)] text-[#D9D6F3] transition duration-100 ease-in-out hover:text-[#e7e5f4] hover:-translate-y-0.5">
               {props.isExp ? "EXPERIENCE!" : "PROJECTS!"}
             </h1>

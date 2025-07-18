@@ -1,11 +1,12 @@
 function LargeCard(props) {
     return (
         <div className="
-            w-full max-w-sm
+            w-full max-w-[80vw]
             mx-auto
             h-auto
             bg-[#2E2E92]
             p-8
+            md:max-w-[500px]
             rounded-[10px]
             flex flex-col gap-2
             shadow-[2px_2px_black]

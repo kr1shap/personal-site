@@ -3,10 +3,10 @@ import PixelBtn from "../components/PixelBtn";
 function Abt(props) {
   return (
    <div
-      className="bg-[#080861] flex flex-col md:flex-row justify-center 
+        className="bg-[#080861] flex flex-col md:flex-row justify-center 
              gap-10 p-6 md:p-10 rounded-[10px] w-full max-w-[1000px] 
-             h-auto md:h-[80vh] overflow-y-auto"
-    >
+             h-auto md:h-[80vh] md:max-h-[700px] overflow-x-auto overflow-y-auto no-scrollbar"
+      >
       {/* image */}
       <div className="flex items-center justify-center w-full">
         <img
