@@ -3,6 +3,7 @@
 @theme {
   --breakpoint-small: 59.375rem;
   --breakpoint-extraSmall: 30.375rem;
+  --breakpoint-verySmall: 28.375rem;
   --font-readable: "Jersey 10";
 }
 
@@ -16,6 +17,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;     /* Optional: keeps the background fixed on scroll */
+  width: 100vw;
+  height: 100vh;
   min-height: 100vh;
 
   font-family: "Press Start 2P", "Jersey 10", system-ui;
@@ -38,6 +42,5 @@ body {
   min-width: 320px;
   min-height: 100vh;
   width: 100vw;
-  height: 100vh;
   overflow-x: hidden;
 }

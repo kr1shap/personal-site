@@ -14,9 +14,15 @@
     },
     {
       "title": "Personal Portfolio",
-      "description": "Woah, thats this site! Inspired for my love for pixel-core. Built using React, deployed on Vercel.",
+      "description": "Thats this! Designed a responsive portfolio site using React, Tailwind CSS, and Framer Motion. It features a clean layout, subtle animations, and an organized showcase of my projects and experience. Built with a focus on clarity, performance, and mobile-friendly design.",
       "img": "port_bkgnd.png",
       "url": ""
+    },
+    {
+      "title": "Tetris | Assembly",
+      "description": "Implemented a simplified version of the classic Tetris game using MIPS assembly. Features real-time piece movement, rotation, collision detection, line clearing, and score tracking, all rendered on a memory-mapped framebuffer. Optimized low-level logic and display routines to handle game state updates efficiently on limited hardware.",
+      "img": "tetris.png",
+      "url": "https://github.com/kr1shap/tetris-assembly"
     }
   ],
   "experience": [
@@ -26,9 +32,19 @@
       "img": "https://d2q79iu7y748jz.cloudfront.net/s/_logo/ccfa256d196e5e73331612529de95104"
     },
     {
-      "title": "First Year Rep @ WICSM",
+      "title": "Graphics Director @ WICSM",
       "description": "Promoting equity and fairness in computer science! \n ∙Structured monthly social events involving snacks and activities to increase student participation \n ∙Created eye-captivating posters resulting in an increased turnout",
       "img": "https://www.utsc.utoronto.ca/cms/sites/utsc.utoronto.ca.cms/files/styles/3_1_full_width_banner/public/images/page/Student%20clubs%201600x%283%29.png?h=d82dd7ab&itok=KAY2l-Mz"
+    },
+    {
+      "title": "Graphics Director @ GDG",
+      "description": "Designing graphics for Google Developer Club Scarbrough",
+      "img": "https://www.utsc.utoronto.ca/cms/sites/utsc.utoronto.ca.cms/files/styles/3_1_full_width_banner/public/images/page/Header%20image%201600x%20.jpg?h=d82dd7ab&itok=XT8-EA-G"
+    },
+    {
+      "title": "Graphic Design Assoc @ UTMIST",
+      "description": "Working with director and VP marketing to design visually-appealing graphics for UTMIST brand.",
+      "img": "https://www.utmist.ca/_next/static/media/utmist-logo-large.f1a7b56c.svg"
     }
   ]
 }

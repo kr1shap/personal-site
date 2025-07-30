@@ -1,20 +1,34 @@
 import PixelBtn from "../components/PixelBtn";
-
+import { motion } from "framer-motion";
 function Abt(props) {
   return (
-   <div
-        className="bg-[#080861] flex flex-col md:flex-row justify-center 
+    <div
+      className="bg-[#080861] flex flex-col md:flex-row justify-center 
              gap-10 p-6 md:p-10 rounded-[10px] w-full max-w-[1000px] 
              h-auto md:h-[80vh] md:max-h-[700px] overflow-x-auto overflow-y-auto no-scrollbar"
-      >
+    >
       {/* image */}
-      <div className="flex items-center justify-center w-full">
+      <motion.div
+        className="flex items-center justify-center w-full"
+        initial={{ scale: 0.8, opacity: 0, y: 50 }}
+        animate={{ scale: 1, opacity: 1, y: 0 }}
+        transition={{
+          type: "spring",
+          stiffness: 100,
+          damping: 10,
+          duration: 0.8,
+        }}
+        whileHover={{
+          y: [-2, 2, -2],
+          transition: { duration: 1, repeat: Infinity, ease: "easeInOut" },
+        }}
+      >
         <img
           className="w-[30vw] max-w-[250px] min-w-[100px] h-auto object-contain shadow bg-transparent"
           src="avatar.png"
           alt="avatar"
         />
-      </div>
+      </motion.div>
 
       {/* text contents */}
       <div className="flex flex-col justify-evenly max-w-full text-wrap break-words px-2 md:px-4">
@@ -41,6 +55,7 @@ function Abt(props) {
         <div className="flex flex-wrap justify-evenly gap-2 mt-4">
           <PixelBtn name="projects" dest="/projects" />
           <PixelBtn name="experience" dest="/experience" />
+          <PixelBtn name="skills" dest="/skills" />
           <PixelBtn name="contact" dest="/contact" />
         </div>
       </div>
