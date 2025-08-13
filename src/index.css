@@ -4,7 +4,7 @@
   --breakpoint-small: 59.375rem;
   --breakpoint-extraSmall: 30.375rem;
   --breakpoint-verySmall: 28.375rem;
-  --font-readable: "Jersey 10";
+  --font-readable: "Montserrat";
 }
 
 @utility no-scrollbar {

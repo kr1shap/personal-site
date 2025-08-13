@@ -2,11 +2,13 @@
 function IconCard(props) { 
 
     return (
-        <div className="inline-flex flex-col items-center justify-center w-fit h-fit gap-2">
+        <div className="inline-flex flex-col items-center justify-center gap-2">
             <img
                 className="
-                    w-full h-full
+                    w-[50px] h-[50px]
+                    sm:w-full sm:h-full
                     max-w-20 max-h-20
+                    min-w-10 min-h-10
                     bg-transparent
                     object-cover
                     shadow

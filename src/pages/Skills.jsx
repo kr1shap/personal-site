@@ -10,7 +10,7 @@ function Skills(props) {
       <div
         className="bg-[#080861] flex flex-col md:flex-row justify-center 
              gap-4 p-6 md:p-10 rounded-[10px] w-full max-w-[1000px] 
-             h-auto md:h-[80vh] md:max-h-[700px] overflow-x-auto overflow-y-auto no-scrollbar"
+             h-auto md:h-[80vh] md:max-h-[500px] overflow-x-auto overflow-y-auto no-scrollbar"
       >
         <div className="flex flex-col m-1w-full align-top">
           {/* nav */}
