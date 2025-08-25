@@ -1,18 +1,24 @@
 import PixelBtn from "../components/PixelBtn";
+import BtnSecondary from "../components/BtnSecondary";
 import IconCard from "../components/IconCard";
-import { useState, useMemo } from "react";
-import { motion } from "framer-motion";
+import skillSets from "../data/skillSet.json";
+import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 
 function Skills(props) {
+  const lang = skillSets.ProgrammingLanguages;
+  const tools = skillSets.FrameworksAndTools;
+  const other = skillSets.DesignAndCollaboration;
+  const [skillSet, setSkillSet] = useState(0);
 
   return (
     <>
       <div
         className="bg-[#080861] flex flex-col md:flex-row justify-center 
-             gap-4 p-6 md:p-10 rounded-[10px] w-full max-w-[1000px] 
-             h-auto md:h-[80vh] md:max-h-[500px] overflow-x-auto overflow-y-auto no-scrollbar"
+             gap-4 p-6 md:p-10 rounded-[10px] w-full md:max-w-[1000px] 
+             h-auto md:w-[60vw] md:h-[80vh] md:max-h-[500px] overflow-x-auto overflow-y-auto no-scrollbar"
       >
-        <div className="flex flex-col m-1w-full align-top">
+        <div className="flex flex-col m-1 w-full align-top">
           {/* nav */}
           <div className="truncate-ellipsis flex flex-col sm:flex-row justify-between items-center gap-4">
             <h1 className="font-black text-[clamp(1.75rem,4vw,2.5rem)] text-[#D9D6F3] transition duration-100 ease-in-out hover:text-[#e7e5f4] hover:-translate-y-0.5">
@@ -20,27 +26,38 @@ function Skills(props) {
             </h1>
             <PixelBtn name="back" dest="/" />
           </div>
-        {/* languages and frameworks */}
-        <div className="mt-5 flex flex-col gap-2 items-center w-full">
-            <div className="flex flex-col verySmall:flex-row w-full justify-center items-center gap-3">
-                <IconCard url="/skillImages/CS.png" name="C"/>
-                <IconCard url="/skillImages/javaS.png" name="Java"/>
-                <IconCard url="/skillImages/pythonS.png" name="Python"/>
-                <IconCard url="/skillImages/swiftS.png" name="Swift"/>
-            </div>
-            <div className="flex flex-col sm:flex-row w-full justify-center items-center gap-3">
-                <IconCard url="/skillImages/reactS.webp" name="React"/>
-                <IconCard url="/skillImages/flaskS.png" name="Flask"/>
-            </div>
+          {/* languages and frameworks */}
+          <div className="mt-3 gap-2 flex-col align-middle items-center flex sm:flex-row sm:justify-evenly">
+            <BtnSecondary
+              name="languages"
+              onClick={() => setSkillSet(0)}
+            ></BtnSecondary>
+            <BtnSecondary
+              name="frameworks/tools"
+              onClick={() => setSkillSet(1)}
+            ></BtnSecondary>
+            <BtnSecondary
+              name="design & collab"
+              onClick={() => setSkillSet(2)}
+            ></BtnSecondary>
+          </div>
+          <div className="mt-5 flex flex-row justify-center flex-wrap gap-7 items-center w-full">
+            <AnimatePresence mode="wait">
+              {(skillSet === 0 ? lang : skillSet === 1 ? tools : other).map((skill, idx) => (
+                <motion.div
+                  key={skill.name} // use unique key
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 0.3 }}
+                >
+                  <IconCard url={skill.img_url} name={skill.name} />
+                </motion.div>
+              ))}
+            </AnimatePresence>
+          </div>
         </div>
-        {/* external, design */}
-        <div className="mt-10 text-xs font-light text-white transition duration-300 ease-in-out hover:text-[#887bda]">
-        <p className="mt-1">Other Languages: HTML, CSS, Type/JavaScript, Bash Scripting</p>
-        <p className="mt-1">Libraries: Numpy, TailwindCSS, Bootstrap, Framer Motion</p>
-        <p className="mt-1">Design/UI: Canva, Figma</p>
-        </div>
-        </div>
-      </div> 
+      </div>
     </>
   );
 }

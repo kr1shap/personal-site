@@ -12,7 +12,7 @@ function PixelBtn(props) {
 
     return (
         <Link to={props.dest ? props.dest : "/"} viewTransition>
-            <button className="font-medium rounded-[25px]
+            <button onClick={props.onClick ?? null} className="font-medium rounded-[25px]
                 border-indigo-900 
                     border-4 bg-[#F2F1FF]
                     text-[#2E2A4F] 

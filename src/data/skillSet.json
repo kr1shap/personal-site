@@ -1,0 +1,27 @@
+{
+  "ProgrammingLanguages": [
+    { "name": "JavaScript", "img_url": "/skillImages/jsS.png" },
+    { "name": "TypeScript", "img_url": "/skillImages/tsC.svg" },
+    { "name": "HTML5", "img_url": "/skillImages/htmlS.png" },
+    { "name": "CSS3", "img_url": "/skillImages/cssS.png" },
+    { "name": "C", "img_url": "/skillImages/CS.png" },
+    { "name": "Java", "img_url": "/skillImages/javaS.png" },
+    { "name": "Python", "img_url": "/skillImages/pythonS.png" },
+    { "name": "Bash", "img_url": "/skillImages/bashS.png" },
+    { "name": "Swift", "img_url": "/skillImages/swiftS.png" }
+  ],
+  "FrameworksAndTools": [
+    { "name": "React", "img_url": "/skillImages/reactS.webp" },
+    { "name": "Tailwind", "img_url": "/skillImages/tailwindcssS.png" },
+    { "name": "Flask", "img_url": "/skillImages/flaskS.png" },
+    { "name": "FastAPI", "img_url": "/skillImages/fastapiS.svg" },
+    { "name": "Git", "img_url": "/skillImages/gitS.png" }
+  ],
+  "DesignAndCollaboration": [
+    { "name": "Figma", "img_url": "/skillImages/figmaS.png" },
+    { "name": "Canva", "img_url": "/skillImages/canvaS.webp" },
+    { "name": "Confluence", "img_url": "/skillImages/cofluenceS.png" },
+    { "name": "Jira", "img_url": "/skillImages/jiraS.svg" },
+    { "name": "Trello", "img_url": "/skillImages/trelloS.png" }
+  ]
+}

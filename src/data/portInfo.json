@@ -15,11 +15,11 @@
       "url": "https://devpost.com/software/wellglobe"
     },
     {
-      "title": "Personal Portfolio",
-      "stack": "React, JavaScript, TailwindCSS",
-      "description": "Thats this! Designed a responsive portfolio site. It features a clean layout, subtle animations, and an organized showcase of my projects and experience. Built with a focus on clarity, performance, and mobile-friendly design.",
-      "img": "port_bkgnd.png",
-      "url": ""
+      "title": "Async Battleship",
+      "stack": "C, [Node.js (in the future!)]",
+      "description": "An asynchronous C server for Battleship using select(), non-blocking I/O, and socket programming to handle multiple concurrent clients with robust error handling.",
+      "img": "async_ship.png",
+      "url": "https://github.com/kr1shap/async-battleship"
     },
     {
       "title": "Tetris | MIPS32 Assembly",
