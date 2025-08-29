@@ -43,9 +43,9 @@ function Skills(props) {
           </div>
           <div className="mt-5 flex flex-row justify-center flex-wrap gap-7 items-center w-full">
             <AnimatePresence mode="wait">
-              {(skillSet === 0 ? lang : skillSet === 1 ? tools : other).map((skill, idx) => (
+              {(skillSet === 0 ? lang : skillSet === 1 ? tools : other).map((skill) => (
                 <motion.div
-                  key={skill.name} // use unique key
+                  key={skill.name}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -20 }}

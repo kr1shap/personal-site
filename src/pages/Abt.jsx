@@ -39,14 +39,12 @@ function Abt(props) {
           <h3 className="mt-2 font-medium text-[#FFD4E7] text-[clamp(0.9rem,2vw,1.2rem)]">
             CS spec + stats & linguistics minor @ UofT
           </h3>
-          <p className="mt-7 text-[clamp(0.7rem,1.4vw,0.8rem)] text-[#e7e5f6] leading-snug">
+          <p className="mt-7 text-[clamp(0.7rem,1.1vw,0.8rem)] text-[#e7e5f6] leading-snug">
             Hey there! My name is Krisha and I’m a 2nd year student at UofT,
-            studying CS and stats! 
+            studying CS and stats + linguistics! 
             <br />
             <br />
-            I enjoy building responsive, user-friendly web applications using React, JavaScript, and modern front-end technologies, as well as crafting polished iOS apps with Swift. My work emphasizes clean architecture, smooth user experiences, and scalable design.
-            <br />
-            Let’s connect!
+            My work emphasizes clean architecture, smooth user experiences, and scalable design. I'm currently open to work in iOS or front-end development!
           </p>
         </div>
 

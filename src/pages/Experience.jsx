@@ -72,7 +72,7 @@ function Experience(props) {
         </div>
       </div>
       {showPopup && selectedData && (
-        <Modal data={selectedData} onClose={handleClosePopup} />
+        <Modal data={selectedData} onClose={handleClosePopup} isExp={props.isExp}/>
       )}
     </>
   );

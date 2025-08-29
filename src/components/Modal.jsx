@@ -1,11 +1,14 @@
 import LargeCard from "../components/LargeCard";
 import { motion } from "framer-motion";
+import HoverLink from "./HoverLink";
+
 // type prop = {
 //   onClose: () => void;
 //   url: string;
 // };
 
 function Overlay(props) {
+  
   return (
     <>
       <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/20 bg-opacity-50 ease-in-out transition-colors">
@@ -25,6 +28,7 @@ function Overlay(props) {
             mass: 0.5,
           }}
         >
+          {!props.isExp && (<HoverLink/>)}
           <LargeCard data={props.data} />
         </motion.div>
       </div>

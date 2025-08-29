@@ -10,14 +10,14 @@ function IconCard(props) {
                     w-[50px] h-[50px]
                     sm:w-full sm:h-full
                     max-w-20 max-h-20
-                    min-w-10 min-h-10
+                    min-w-8 min-h-8
                     bg-transparent
                     object-cover
                     shadow
                     "
         src={props.url ? props.url : "placeholder.jpg"}
         onClick={props.action ? props.action : null}
-        style={{ width: props.size || 80, height: props.size || 80 }}
+        style={{ width: props.size || 70, height: props.size || 70 }}
       />
       <p className="text-[0.5rem] text-white font-light text-center">
         {props.name}
