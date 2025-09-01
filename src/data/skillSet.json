@@ -7,8 +7,9 @@
     { "name": "C", "img_url": "/skillImages/CS.png" },
     { "name": "Java", "img_url": "/skillImages/javaS.png" },
     { "name": "Python", "img_url": "/skillImages/pythonS.png" },
+    { "name": "Swift", "img_url": "/skillImages/swiftS.png" },
     { "name": "Bash", "img_url": "/skillImages/bashS.png" },
-    { "name": "Swift", "img_url": "/skillImages/swiftS.png" }
+    { "name": "SQL", "img_url": "/skillImages/SQLS.png" }
   ],
   "FrameworksAndTools": [
     { "name": "React", "img_url": "/skillImages/reactS.webp" },
@@ -16,7 +17,10 @@
     { "name": "Motion", "img_url": "/skillImages/motionS.jpeg" },
     { "name": "Flask", "img_url": "/skillImages/flaskS.png" },
     { "name": "FastAPI", "img_url": "/skillImages/fastapiS.svg" },
-    { "name": "Git", "img_url": "/skillImages/gitS.png" }
+    { "name": "Git", "img_url": "/skillImages/gitS.png" },
+    { "name": "Postman", "img_url": "/skillImages/postmanS.png" },
+    { "name": "SQLite", "img_url": "/skillImages/SQLiteS.png" }
+
   ],
   "DesignAndCollaboration": [
     { "name": "Figma", "img_url": "/skillImages/figmaS.png" },

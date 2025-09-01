@@ -19,8 +19,8 @@ function HoverLink() {
                border-l-transparent border-r-transparent border-t-[#3d2fa9]"
       />
       <div className="flex flex-col  bg-[#3d2fa9] shadow-lg rounded-xl p-3 border-4 border-indigo-900 ">
-        <p className="text-[0.6rem] sm:text-[0.7rem] text-[#e5e5e5]">
-          click the image to view!
+        <p className="text-[0.5rem] sm:text-[0.6rem] text-[#e5e5e5]">
+          click the image to go to link!
         </p>
       </div>
     </motion.div>
