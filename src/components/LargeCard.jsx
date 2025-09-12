@@ -28,11 +28,23 @@ function LargeCard(props) {
           />
         </a>
       </div>
-
       <div className="flex flex-col pt-1 flex-grow overflow-auto">
-        <h1 className="font-readable text-xs md:text-[1rem]  text-[#dbdbf5] font-bold mb-2 break-words">
-          {props.data.title || "[No title]"}
-        </h1>
+        <a
+          href={
+            props.data.title == "UniMap"
+              ? "https://youtube.com/shorts/-BdfOLVh7hc?feature=share"
+              : null
+          }
+          target="_blank"
+        >
+          <h1 className="font-readable text-xs md:text-[1rem]  text-[#dbdbf5] font-bold mb-2 break-words hover:text-[#a7a7ec] ease-in-out transition duration-300">
+            {props.data.title
+              ? props.data.title +
+                (props.data.title === "UniMap" ? " (click this for demo!)" : "")
+              : "[No title]"}
+          </h1>
+        </a>
+
         {props.data.stack && (
           <h1 className="font-readable text-xs md:text-[0.7rem] text-[#b9b9f4] font-black mb-2 break-words">
             {props.data.stack}
