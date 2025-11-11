@@ -8,7 +8,6 @@ import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
 import NotFound from "./pages/NotFound.jsx";
 import { motion } from "framer-motion";
-
 // const mobileRouter = createBrowserRouter([
 //   { path: '/', element: <MobileUnsup />, errorElement: <NotFound back={false} /> },
 //   ]);

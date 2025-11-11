@@ -42,7 +42,7 @@ function Contact(props) {
         <div className="flex flex-col items-center gap-10 w-full max-w-[500px] overflow-hidden">
           <div className="flex flex-row justify-center gap-x-4 max-w-[200px] mx-auto">
             <PicBtn url="git.png" redirect="https://github.com/kr1shap" />
-            <PicBtn url="in.png" redirect="www.linkedin.com/in/kriishap" />
+            <PicBtn url="in.png" redirect="https://www.linkedin.com/in/kriishap" />
           </div>
 
           <div className="flex flex-row justify-center gap-4">

@@ -11,13 +11,17 @@
   @apply [scrollbar-width:none] [&::-webkit-scrollbar]:hidden;
 }
 
+html, div, body {
+  scroll-behavior: smooth;
+}
+
 :root {
   background-color: #4c458a;
   background-image: url("/public/port_bkgnd.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;     /* Optional: keeps the background fixed on scroll */
+  background-attachment: fixed; /* Optional: keeps the background fixed on scroll */
   width: 100vw;
   height: 100vh;
   min-height: 100vh;
