@@ -45,12 +45,12 @@ function Contact(props) {
             <PicBtn url="in.png" redirect="https://www.linkedin.com/in/kriishap" />
           </div>
 
-          <div className="flex flex-row justify-center gap-4">
+          {/* <div className="flex flex-row justify-center gap-4">
             <PixelBtn
               name="resume"
               dest="https://docs.google.com/document/d/1fi3jLCpcrYJ32CJ4kyukxn5jxdXldtsf8XgdYkPDuNI/edit?usp=sharing"
             />
-          </div>
+          </div> */}
 
           <p className="font-black text-[clamp(0.85rem,1.2vw,1.1rem)] text-[#e7e5f4] text-center break-all">
             email: krisha9845@gmail.com
