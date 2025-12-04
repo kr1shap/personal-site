@@ -45,7 +45,7 @@ function Abt(props) {
             studying CS and stats + linguistics! 
             <br />
             <br />
-            My work emphasizes clean architecture, smooth user experiences, and scalable design. I'm currently open to work in iOS or front-end development!
+            Incoming Software Dev @ RBC !
           </p>
         </div>
 

@@ -1,6 +1,13 @@
 {
   "projects": [
     {
+      "title": "Smart Air",
+      "stack": "Java Native, Android Studio, Firebase",
+      "description": "A child-friendly app for asthma, along with parent management and provider viewing! (I was also a very good scrum master)",
+      "img": "smartair.png",
+      "url": "https://github.com/kr1shap/smart-air"
+    },
+    {
       "title": "UniMap",
       "stack": "Swift, SwiftUI, FastAPI",
       "description": "UniMap is an iOS application designed to bring UTSC students closer together, providing a hub for all events on campus. Developed a user event upload functionality on a Swift iOS application using MVVM architecture, implementing form validation, custom feedback patterns, focus-state control, and dynamic styling for a smooth user experience.",
@@ -52,6 +59,11 @@
     
   ],
   "experience": [
+    {
+      "title": "Software Dev @ RBC",
+      "description": "Incoming Winter 2026!",
+      "img": "public/rbclogo.webp"
+    },
     {
       "title": "Web Dev @ BizZone Inc.",
       "description": "∙Evaluated client websites against appropriate standards \n ∙Designed Figma bootstrap elements and concepts for clients",
