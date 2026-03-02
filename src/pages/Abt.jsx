@@ -45,7 +45,7 @@ function Abt(props) {
             studying CS and stats + linguistics! 
             <br />
             <br />
-            Incoming Software Dev @ RBC !
+            Currently a software dev @ RBC! Incoming @ Capital One!
           </p>
         </div>
 
